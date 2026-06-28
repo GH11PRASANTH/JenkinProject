@@ -15,6 +15,6 @@ public class HelloController {
     @GetMapping("/hello")
     @Operation(summary = "Get Hello Message")
     public String hello() {
-        return "Hello World from Spring Boot Java 17";
+        return "Hello World from Spring Boot Java 21";
     }
 }
